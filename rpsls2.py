@@ -45,7 +45,8 @@ def name_to_number(name):
     elif name == "scissors":
         return 4
     else:
-        print " You entered an invalid name."
+        print " You entered an invalid name.\n Try agian"
+        exit()
     
     # don't forget to return the result!
 
